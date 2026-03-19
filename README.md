@@ -1,3 +1,5 @@
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Polenoz/Recommender-Systems/blob/main/Recommender_Systems.ipynb)
+
 # Recommender System Project
 
 In this project, a simple movie recommendation system is created using user rating data. The system suggests similar movies based on how users rated different films.
@@ -6,34 +8,35 @@ In this project, a simple movie recommendation system is created using user rati
 
 The project uses the following files:
 
-* U.data
-* Movie_Id_Titles
+- U.data
+- Movie_Id_Titles
 
-These files should be in the same directory as the notebook.
+The datasets are loaded directly from the GitHub repository, so no manual upload is needed when the notebook is opened in Google Colab.
+
+## Required libraries
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- jupyter
 
 ## How to run
 
-You can run the notebook using Google Colab:
+- Click the badge at the top
+- Open the notebook in Colab
+- Run all cells
 
-* Open the notebook
-* Upload the dataset files
-* Run all cells
+The datasets are loaded automatically from the repository.
 
 You can also run it locally:
 
-* Install the required libraries (pandas, numpy, matplotlib, seaborn)
-* Open the notebook with Jupyter
-* Run all cells
+- Clone or download the repository
+- Install the required libraries
+- Open the notebook with Jupyter
+- Run all cells
 
-## What is done in this notebook
+Example installation:
 
-* The dataset is loaded and prepared
-* User ratings are combined with movie titles
-* A user-item matrix is created
-* Similarities between movies are calculated
-* Movie recommendations are generated based on correlations
-
-## Evaluation
-
-The recommendation system is based on correlation between user ratings.
-Movies that have similar rating patterns are considered similar.
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
